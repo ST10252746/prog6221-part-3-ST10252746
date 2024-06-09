@@ -5,53 +5,65 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ST10252746_PROG6221_POE.Models
-{
+{//namespace begin
     public class Ingredient
-    {
-        public string Name { get; set; }
+    {// Ingredient class begin
+     //attribute variable declaration - with getter and setter methods
+
+        //GETTER AND SETTER METHODS
+        public string Name { get; set; } 
         public double Quantity { get; set; }
-        public double originalQuantity { get; set; }
-        public UnitsOfMeasurement originalUnit { get; set; }
-        public UnitsOfMeasurement Unit { get; set; }
-        public FoodGroup FoodGroup { get; set; }
+        public double originalQuantity { get; set; } //Created new value
+        public UnitsOfMeasurement originalUnit { get; set; } //Created new value
+        public UnitsOfMeasurement Unit { get; set; }  //enum
+        public FoodGroup FoodGroup { get; set; } //enum
         public double Calories { get; set; }
-        public double originalCalories { get; set; }
+        public double originalCalories { get; set; } //Created new value
 
+        // Constructor method for the Ingredient class with parameters
         public Ingredient(string name, double quantity, UnitsOfMeasurement unit, FoodGroup foodGroup, double calories)
-        {
-            Name = name;
-            Quantity = quantity;
-            Unit = unit;
-            originalQuantity = quantity;
-            originalUnit = unit;
-            FoodGroup = foodGroup;
-            this.Calories = calories;
-            originalCalories = calories;
-        }
+        {// constructor begin
+            Name = name; // Set the name of the ingredient
+            Quantity = quantity; // Set the quantity of the ingredient
+            Unit = unit; // Set the unit of measurement of the ingredient
+            originalQuantity = quantity; // Store the original quantity for later reference
+            originalUnit = unit; // Store the original unit of measurement for later reference
+            FoodGroup = foodGroup;  // Set the food group of the ingredient
+            this.Calories = calories; // set the calories to the class parameter
+            originalCalories = calories; // Store the original calories for later reference
 
+
+        }// constructor end
+
+        // Method to reset the quantity of the ingredient to its original state
         public void ResetQuantity()
-        {
-            Quantity = originalQuantity;
-        }
+        {//resetQuantity start
+            Quantity = originalQuantity; // Restore the quantity to its original value
+        }//resetQuantity end
 
+        // Method to reset the unit of measurement of the ingredient to its original state
         public void ResetUnit()
-        {
-            Unit = originalUnit;
-        }
+        {//ResetUnit start
+            Unit = originalUnit; // Restore the unit of measurement to its original value
+        }//ResetUnit end
 
+        //method to calculate scaled calories based on factor selected
         public void CalculateScaledCalories(double factor)
-        {
-            Calories = factor * Calories;
-        }
+        {//CalculateScaledCalories begin
+            Calories = factor * Calories; //Scaled calories is calculated by multiplying the current calorie value by the selected factor
+        }// CalculateScaledCalorie end
 
+        //Method to reset calories
         public void ResetCalories()
-        {
-            this.Calories = originalCalories;
-        }
+        {// ResetCalories begin
+            this.Calories = originalCalories; //reset calories to the value in the parameters
+        }// ResetCalories end
 
+        //Method to diaply the additional information related to the ingredients
         public void DisplayIngredient()
-        {
+        {// display begin
             Console.WriteLine($"{Quantity} {Unit} of {Name}\nFood Group: {FoodGroup}\n{Calories} Calories: \n");
-        }
-    }
-}
+        }// display end
+
+    }// Ingredient class end
+}//namespace end
