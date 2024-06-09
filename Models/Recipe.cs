@@ -281,10 +281,6 @@ namespace ST10252746_PROG6221_POE.Models
             }//foreach end
 
             totalCalories = CalculateTotalCalories();
-
-            Console.ForegroundColor = ConsoleColor.Green; // sets the text color of the console output to that specific colour
-            Console.WriteLine("\nRecipe has been reset to its orgin state successfully!\n");
-            Console.ResetColor(); //Restore the original console colors
         }// ResetRecipe end
     }
 }
