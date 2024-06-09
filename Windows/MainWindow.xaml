@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btnMain" Content="Start Up" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Width="130" AutomationProperties.HelpText="Click button to continue onto the next page" Click="btnMain_Click"/>
+
     </Grid>
 </Window>
