@@ -6,7 +6,33 @@
         xmlns:local="clr-namespace:ST10252746_PROG6221_POE.Windows"
         mc:Ignorable="d"
         Title="FilterRecipes" Height="450" Width="800">
-    <Grid>
-        
+    <Grid AutomationProperties.HelpText="Click to filter by Number of Calories">
+        <Label x:Name="lblHeading" Content="Recipe Management Application Filter Menu" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="rtbFilter" Margin="184,149,160,22">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="btnIngredientName" Content="Enter Ingredient Name" HorizontalAlignment="Left" Margin="185,55,0,0" VerticalAlignment="Top" Width="128" AutomationProperties.HelpText="Click to filter by ingredient name"/>
+        <Button x:Name="btnFoodGroup" Content="Select Food Group" HorizontalAlignment="Left" Margin="361,55,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to filter by food group"/>
+        <Button x:Name="btnCalories" Content="Enter Number of Calories" HorizontalAlignment="Left" Margin="502,55,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnMainMenu" Content="Return to Main Menu" HorizontalAlignment="Left" Margin="44,392,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to return to main menu"/>
+        <TextBox x:Name="txtIngredientName" HorizontalAlignment="Left" Margin="185,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128"/>
+        <TextBox x:Name="txtNumberCalories" HorizontalAlignment="Left" Margin="502,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138"/>
+        <ComboBox x:Name="txtFoodGroup" HorizontalAlignment="Left" Margin="361,80,0,0" VerticalAlignment="Top" Width="102" Height="18">
+            <ComboBoxItem Content="CARBOHYDRATE"/>
+            <ComboBoxItem Content="PROTEIN"/>
+            <ComboBoxItem Content="FAT"/>
+            <ComboBoxItem Content="OIL"/>
+            <ComboBoxItem Content="FRUIT"/>
+            <ComboBoxItem Content="VEGETABLE"/>
+            <ComboBoxItem Content="DAIRY"/>
+            <ComboBoxItem Content="WATER"/>
+        </ComboBox>
+        <Button x:Name="btnFilter" Content="Apply Filter" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to apply filter selected above" Width="127"/>
+        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="57,0,0,0" VerticalAlignment="Center" AutomationProperties.HelpText="Click to view recipe " Width="92"/>
+
     </Grid>
 </Window>
