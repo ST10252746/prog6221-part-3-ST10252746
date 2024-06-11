@@ -7,18 +7,21 @@
         mc:Ignorable="d"
         Title="ViewRecipe" Height="450" Width="800">
     <Grid>
-        <Label x:Name="lblHeading" Content="Recipe Management Application Main Menu" HorizontalAlignment="Left" Margin="284,21,0,0" VerticalAlignment="Top"/>
-        <RichTextBox x:Name="rtbRecipe" Margin="200,109,200,42">
+        <Label x:Name="lblHeading" Content="View Recipe" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="rtbRecipe" Margin="191,116,169,29">
             <FlowDocument>
                 <Paragraph>
                     <Run Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="683,393,0,0" VerticalAlignment="Top" Width="93" AutomationProperties.HelpText="Click to exit button"/>
-        <Button x:Name="btnAddRecipe" Content="Add Recipe" HorizontalAlignment="Left" Margin="236,79,0,0" VerticalAlignment="Top" Width="117" AutomationProperties.HelpText="Click to add recipe"/>
-        <Button x:Name="btnFilter" Content="Filter Recipes" HorizontalAlignment="Left" Margin="472,79,0,0" VerticalAlignment="Top" Width="115" AutomationProperties.HelpText="Click to filter recipes"/>
-        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="61,231,0,0" VerticalAlignment="Top" Width="108" AutomationProperties.HelpText="First select Recipe listed and then click View Recipe button"/>
-
+        <Button x:Name="btnMainMenu" Content="Return to Main Menu" HorizontalAlignment="Left" Margin="41,384,0,0" VerticalAlignment="Top" Height="21"/>
+        <Button x:Name="btnScale" Content="Scale Recipe" HorizontalAlignment="Left" Margin="504,67,0,0" VerticalAlignment="Top" Width="127"/>
+        <Button x:Name="btnReset" Content="Reset Recipe" HorizontalAlignment="Left" Margin="44,202,0,0" VerticalAlignment="Top" Width="114"/>
+        <RadioButton x:Name="rbHalf" Content="0,5 (Half)" HorizontalAlignment="Left" Margin="195,79,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbDouble" Content="2 (Double)" HorizontalAlignment="Left" Margin="282,79,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbTriple" Content="3 (Triple)" HorizontalAlignment="Left" Margin="379,79,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtScale" HorizontalAlignment="Left" Margin="195,56,0,0" TextWrapping="Wrap" Text="Select scaling option below:" VerticalAlignment="Top" Width="249"/>
+        <Button x:Name="btnClearRecipe" Content="Clear Recipe" HorizontalAlignment="Left" Margin="44,257,0,0" VerticalAlignment="Top" Width="114"/>
     </Grid>
 </Window>

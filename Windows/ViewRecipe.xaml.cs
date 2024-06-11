@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ST10252746_PROG6221_POE.Windows
 {
     /// <summary>
-    /// Interaction logic for ViewRecipe.xaml
+    /// Interaction logic for DisplayRecipes.xaml
     /// </summary>
-    public partial class ViewRecipe : Window
+    public partial class DisplayRecipes : Window
     {
-        public ViewRecipe()
+        public DisplayRecipes()
         {
             InitializeComponent();
         }

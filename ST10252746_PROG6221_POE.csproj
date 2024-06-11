@@ -55,8 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Windows\ViewRecipe.xaml.cs">
-      <DependentUpon>ViewRecipe.xaml</DependentUpon>
+    <Compile Include="Windows\MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
     </Compile>
     <Page Include="Windows\AddIngredient.xaml">
       <SubType>Designer</SubType>
@@ -70,7 +70,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\DisplayRecipes.xaml">
+    <Page Include="Windows\ViewRecipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -78,7 +78,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\MainWindow.xaml">
+    <Page Include="Windows\Welcome.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -101,17 +101,17 @@
     <Compile Include="Windows\AddStep.xaml.cs">
       <DependentUpon>AddStep.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\DisplayRecipes.xaml.cs">
-      <DependentUpon>DisplayRecipes.xaml</DependentUpon>
+    <Compile Include="Windows\ViewRecipe.xaml.cs">
+      <DependentUpon>ViewRecipe.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\FilterRecipes.xaml.cs">
       <DependentUpon>FilterRecipes.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="Windows\Welcome.xaml.cs">
+      <DependentUpon>Welcome.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Windows\ViewRecipe.xaml">
+    <Page Include="Windows\MainMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
