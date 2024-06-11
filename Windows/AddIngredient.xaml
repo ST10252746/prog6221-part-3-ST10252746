@@ -7,6 +7,38 @@
         mc:Ignorable="d"
         Title="AddIngredient" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="lblIngredient" Content="Please enter name of ingredient:" HorizontalAlignment="Left" Margin="34,50,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIngredientName" HorizontalAlignment="Left" Margin="45,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblQuantity" Content="Please enter quantity of ingredient:" HorizontalAlignment="Left" Margin="45,122,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbUnit" HorizontalAlignment="Left" Margin="45,235,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="SMALL"/>
+            <ComboBoxItem Content="MEDIUM"/>
+            <ComboBoxItem Content="LARGE"/>
+            <ComboBoxItem Content="EXTRALARGE"/>
+            <ComboBoxItem Content="TEASPOON"/>
+            <ComboBoxItem Content="TEASPOONS"/>
+            <ComboBoxItem Content="TABLESPOON"/>
+            <ComboBoxItem Content="TABLESPOONS"/>
+            <ComboBoxItem Content="CUP"/>
+            <ComboBoxItem Content="CUPS"/>
+        </ComboBox>
+        <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Margin="53,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblUnit" Content="Please select unit of measurement:" HorizontalAlignment="Left" Margin="53,0,0,0" VerticalAlignment="Center"/>
+        <Label x:Name="lblFoodGroup" Content="Please select food group:" HorizontalAlignment="Left" Margin="53,287,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbFoodGroup" HorizontalAlignment="Left" Margin="45,318,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="CARBOHYDRATE"/>
+            <ComboBoxItem Content="PROTEIN"/>
+            <ComboBoxItem Content="FAT"/>
+            <ComboBoxItem Content="OIL"/>
+            <ComboBoxItem Content="FRUIT"/>
+            <ComboBoxItem Content="VEGETABLE"/>
+            <ComboBoxItem Content="DAIRY"/>
+            <ComboBoxItem Content="WATER"/>
+        </ComboBox>
+        <Label x:Name="lblCalories" Content="Please enter number of calories:" HorizontalAlignment="Left" Margin="53,362,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCalories" HorizontalAlignment="Left" Margin="53,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAddIngredient" Content="Add Ingredient" HorizontalAlignment="Left" Margin="586,237,0,0" VerticalAlignment="Top" Width="118" AutomationProperties.HelpText="Click here to add ingredient to recipe" Click="btnAddIngredient_Click"/>
+        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Left" Margin="331,23,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

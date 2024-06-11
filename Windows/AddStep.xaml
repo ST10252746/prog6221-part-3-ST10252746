@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="AddStep" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="lblStep" Content="Please enter the step below:" HorizontalAlignment="Left" Margin="36,64,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtStep" HorizontalAlignment="Left" Margin="36,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="445" Height="122"/>
+        <Button x:Name="btnAddStep" Content="Add Step" HorizontalAlignment="Left" Margin="459,255,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to add step to recipe" Width="116"/>
+        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Left" Margin="367,23,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>

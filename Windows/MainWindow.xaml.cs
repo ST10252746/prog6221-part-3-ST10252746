@@ -36,7 +36,9 @@ namespace ST10252746_PROG6221_POE
 
         private void btnMain_Click(object sender, RoutedEventArgs e)
         {
-           
+            AddRecipe addRecipeWindow = new AddRecipe(manageRecipes);
+            addRecipeWindow.Show();
+            this.Close();
         }
     }
 }
