@@ -20,16 +20,21 @@ namespace ST10252746_PROG6221_POE
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Welcome : Window
     {
         private ManageRecipe manageRecipes;
-        public MainWindow(ManageRecipe manageRecipes)
+        public Welcome()
+        {
+            InitializeComponent();
+            this.manageRecipes = new ManageRecipe();
+        }
+        public Welcome(ManageRecipe manageRecipes)
         {
             InitializeComponent();
             this.manageRecipes = manageRecipes;
         }
 
-        private void btnMain_Click(object sender, RoutedEventArgs e)
+        private void btnWelcome_Click(object sender, RoutedEventArgs e)
         {
             AddRecipe addRecipeWindow = new AddRecipe(manageRecipes);
             addRecipeWindow.Show();
