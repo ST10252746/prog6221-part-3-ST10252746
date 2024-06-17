@@ -8,17 +8,11 @@
         Title="MainMenu" Height="450" Width="800">
     <Grid>
         <Label x:Name="lblHeading" Content="Recipe Management Application Main Menu" HorizontalAlignment="Left" Margin="284,21,0,0" VerticalAlignment="Top"/>
-        <RichTextBox x:Name="rtbRecipe" Margin="200,109,200,42">
-            <FlowDocument>
-                <Paragraph>
-                    <Run Text=""/>
-                </Paragraph>
-            </FlowDocument>
-        </RichTextBox>
-        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="683,393,0,0" VerticalAlignment="Top" Width="93" AutomationProperties.HelpText="Click to exit button"/>
-        <Button x:Name="btnAddRecipe" Content="Add Recipe" HorizontalAlignment="Left" Margin="236,79,0,0" VerticalAlignment="Top" Width="117" AutomationProperties.HelpText="Click to add recipe"/>
-        <Button x:Name="btnFilter" Content="Filter Recipes" HorizontalAlignment="Left" Margin="472,79,0,0" VerticalAlignment="Top" Width="115" AutomationProperties.HelpText="Click to filter recipes"/>
-        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="61,231,0,0" VerticalAlignment="Top" Width="108" AutomationProperties.HelpText="First select Recipe listed and then click View Recipe button"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="683,393,0,0" VerticalAlignment="Top" Width="93" AutomationProperties.HelpText="Click to exit button" Click="btnExit_Click"/>
+        <Button x:Name="btnAddRecipe" Content="Add Recipe" HorizontalAlignment="Left" Margin="236,79,0,0" VerticalAlignment="Top" Width="117" AutomationProperties.HelpText="Click to add recipe" Click="btnAddRecipe_Click"/>
+        <Button x:Name="btnFilter" Content="Filter Recipes" HorizontalAlignment="Left" Margin="472,79,0,0" VerticalAlignment="Top" Width="115" AutomationProperties.HelpText="Click to filter recipes" Click="btnFilter_Click"/>
+        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="61,231,0,0" VerticalAlignment="Top" Width="108" AutomationProperties.HelpText="First select Recipe listed and then click View Recipe button" Click="btnViewRecipe_Click"/>
+        <ListBox x:Name="lstbxRecipeDisplay" Margin="206,118,137,31" SelectionChanged="lstbxRecipeDisplay_SelectionChanged"/>
 
     </Grid>
 </Window>

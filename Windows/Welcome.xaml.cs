@@ -23,11 +23,6 @@ namespace ST10252746_PROG6221_POE
     public partial class MainWindow : Window
     {
         private ManageRecipe manageRecipes;
-        public MainWindow()
-        {
-            InitializeComponent();
-            this.manageRecipes = new ManageRecipe(); // initialize ManageRecipe instance here
-        }
         public MainWindow(ManageRecipe manageRecipes)
         {
             InitializeComponent();
