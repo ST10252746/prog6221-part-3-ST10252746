@@ -26,12 +26,12 @@ The application allows the user to exit the application. The user shall be able 
 
 
 Features:
-•	Allows users to enter details for an unlimited amount of recipes, including ingredients(units of measurements, food group, calories, quantities) and steps (amount and description).
-•	Displays the full recipe in a neat format.
-•	Supports scaling of recipe quantities by a factor of 0.5, 2, or 3.
-•	Enables resetting ingredient quantities to their original values.
-•	Provides an option to clear recipe data.
-•	Does not persist user data between runs; data is stored in memory only.
+- •	Allows users to enter details for an unlimited amount of recipes, including ingredients(units of measurements, food group, calories, quantities) and steps (amount and description).
+- •	Displays the full recipe in a neat format.
+- •	Supports scaling of recipe quantities by a factor of 0.5, 2, or 3.
+- •	Enables resetting ingredient quantities to their original values.
+- •	Provides an option to clear recipe data.
+- •	Does not persist user data between runs; data is stored in memory only.
 
 Provides an option to display a list of all recipes in alphabetical order by name
 Users can choose which recipe to display from the list using a search option.
@@ -86,9 +86,9 @@ Several features have been added to the application and implemented in Part 3 of
 
 The following features added:
 1. The user shall be able to filter the list of recipes by:
-- a. entering the name of an ingredient that must be in the recipe,
-- b. choosing a food group (combo box) that must be in the recipe, or
-- c. selecting a maximum number of calories
+- - a. entering the name of an ingredient that must be in the recipe,
+- - b. choosing a food group (combo box) that must be in the recipe, or
+- - c. selecting a maximum number of calories
 
 - This makes the app smoother to use and decreases the chance of input errors.
 
