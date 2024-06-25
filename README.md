@@ -12,7 +12,7 @@
 
 
 ## 1. Description
--With the use of windows/buttons/listboxes/comboboxes/textblocks/richEdits
+With the use of windows/buttons/listboxes/comboboxes/textblocks/richEdits
 This WPF application will allow for the user to enter the ingredients, as well as the steps for an UNLIMITED amount of recipe. 
 The user will be prompted to enter the name of the recipe, the number of ingredients in the recipe and the number of steps in the recipe, 
 for each recipe the user enters. The user will then have to input the name, quantity, unit of measurement, number of calories and food group for each ingredient which will be stored in memory using a generic list, storing ingredient objects. 
@@ -22,10 +22,7 @@ The application also allows for the unit of measurement for each ingredient ente
 The application is able to calculate and display the total number of calories in a recipe to the user. 
 The application displays a unique message to the user depending on the number of calories in the recipe and offers an explanation for this range 
 of calories. The application is also able to display an ALERT message to the user once the given recipe has exceeded 300 total calories. 
-The application allows the user to exit the application. The user shall be able to filter the list of recipes by:
-a. entering the name of an ingredient that must be in the recipe,
-b. choosing a food group (combo box) that must be in the recipe, or
-c. selecting a maximum number of calories
+The application allows the user to exit the application. The user shall be able to filter the list of recipes by: entering the name of an ingredient that must be in the recipe, choosing a food group (combo box) that must be in the recipe, or selecting a maximum number of calories
 
 
 Features:
@@ -41,9 +38,9 @@ Users can choose which recipe to display from the list using a search option.
 Calculates and displays the total calories of all ingredients in a recipe.
 Notifies the user when the total calories of a recipe exceed 300 and provides explanations specific to certain ranges of total calories.
 The user shall be able to filter the list of recipes by:
-a. entering the name of an ingredient that must be in the recipe,
-b. choosing a food group (combo box) that must be in the recipe, or
-c. selecting a maximum number of calories
+- a. entering the name of an ingredient that must be in the recipe,
+- b. choosing a food group (combo box) that must be in the recipe, or
+- c. selecting a maximum number of calories
 
 
 ## 2. Installation
@@ -67,13 +64,14 @@ Menu 1-
 If Display Recipe is selected another menu will appear
 To select a recipe from the menu or to return to the main menu if then a specific recipe is chosen another menu will appear:
    - Display Recipe: will display recipes in alphabetical order
-   - Scale Recipe: Scale ingredient quantities/unit measurements (e.g., half, double, triple).
-   - Reset Recipe: Reverse the scaling to display original ingredient quantities/unit measurements.
-   - Clear Recipe: Clear the current recipe.
+   - Scale Recipe: Scale ingredient quantities/unit measurements (e.g., half, double, triple)
+   - Reset Recipe: Reverse the scaling to display original ingredient quantities/unit measurements
+   - Clear Recipe: Clear the current recipe
    - Add Recipe: add new recipe (unlimited)
    - Display all Recipes: will display recipes in alphabetical order
-   - Back to main menu: Goes back to the previous menu
-6. Users can access these functions multiple times before exiting by selecting the respective option.
+   - Filter Recipes: filter the list of recipes by either entering the name of an ingredient that must be in the recipe, choosing a food group (combo box) that must be in the recipe, or selecting a maximum number of                         calories
+   - Return to main menu: Goes back to the previous window menu
+6. Users can access these functions multiple times before exiting by selecting the respective option exit button.
 
 
 ## 4. Changes/Updates based on feedback:
@@ -87,7 +85,7 @@ Several features have been added to the application and implemented in Part 3 of
 - Features such as the use of richedit boxes for the display of information.
 
 The following features added:
-- 1. The user shall be able to filter the list of recipes by:
+1. The user shall be able to filter the list of recipes by:
 - a. entering the name of an ingredient that must be in the recipe,
 - b. choosing a food group (combo box) that must be in the recipe, or
 - c. selecting a maximum number of calories
