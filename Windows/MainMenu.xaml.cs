@@ -22,7 +22,37 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+/*
+ *--------------------CODE ATTRIBUTION--------------------
+        Author: Fatima Shaik
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/WpfVending.zip
+        Date: 10 June 2024
 
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/PassingData_WPF.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/MyFirstWPF_Build.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/InventoryTacking_App.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/DonationsWPF-master.zip
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/CoffeeShop-WPF.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/Calculator_Stack_Grid_WPF.rar
+        Date: 10 June 2024
+ *--------------------CODE ATTRIBUTION--------------------
+ */
 namespace ST10252746_PROG6221_POE.Windows
 {//namespace begin
     /// <summary>

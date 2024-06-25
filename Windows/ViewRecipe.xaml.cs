@@ -22,20 +22,50 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+/*
+ *--------------------CODE ATTRIBUTION--------------------
+        Author: Fatima Shaik
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/WpfVending.zip
+        Date: 10 June 2024
 
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/PassingData_WPF.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/MyFirstWPF_Build.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/InventoryTacking_App.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/DonationsWPF-master.zip
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/CoffeeShop-WPF.rar
+        Date: 10 June 2024
+
+        Author: Fatima Shaik 
+        Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/Calculator_Stack_Grid_WPF.rar
+        Date: 10 June 2024
+ *--------------------CODE ATTRIBUTION--------------------
+ */
 namespace ST10252746_PROG6221_POE.Windows
-{
+{//namespace begin
     /// <summary>
     /// Interaction logic for ViewRecipe.xaml
     /// </summary>
     public partial class ViewRecipe : Window
-    {
+    {//viewRecipe window begin
         //Variable Declaration
         private Recipe currentRecipe;
         private ManageRecipe manageRecipe;
         public ViewRecipe(Recipe recipe, ManageRecipe manageRecipe)
         {// ViewRecipe begin
-            InitializeComponent();
+            InitializeComponent(); //initiliaze components defined 
             this.currentRecipe = recipe;
             DisplayRecipeDetails(); //call method to display the recipe details in a richedit
             this.manageRecipe = manageRecipe;
