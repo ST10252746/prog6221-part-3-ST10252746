@@ -18,6 +18,21 @@ using System.Windows;
 
 namespace ST10252746_PROG6221_POE.Models
 {//namespace begin
+/*
+                    *--------------------CODE ATTRIBUTION--------------------
+                    Author: Fatima Shaik
+                    Website: https://github.com/fb-shaik/PROG6221-Group1-2024/tree/main/NonGenericCollection_Demo
+                    Date: 25 May 2024
+
+                    Author: Fatima Shaik
+                    Website:https://github.com/fb-shaik/PROG6221-Group1-2024/tree/main/Class_Objects_App
+                    Date: 25 May 2024
+
+                    Author: Fatima Shaik
+                    Website:https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/AddressBookApp/Program.cs
+                    Date: 25 May 2024
+                    *--------------------CODE ATTRIBUTION--------------------
+  */
     public class ManageRecipe
     {//ManageRecipe class begin
         // Property to hold a list of recipes

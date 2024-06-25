@@ -17,6 +17,19 @@ using System.Windows.Documents;
 
 namespace ST10252746_PROG6221_POE.Models
 {//namespace begin
+/*
+                    *--------------------CODE ATTRIBUTION--------------------
+
+                    Author: Fatima Shaik
+                    Website:https://github.com/fb-shaik/PROG6221-Group1-2024/tree/main/Class_Objects_App
+                    Date: 25 May 2024
+
+                    Author: Fatima Shaik
+                    Website:https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/AddressBookApp/Program.cs
+                    Date: 25 May 2024
+                    *--------------------CODE ATTRIBUTION--------------------
+ */
+
     public delegate void RecipeDelegate(string message);  //declares delegate named RecipeDelegate references any method 
     public class Recipe
     {// Recipe class begin

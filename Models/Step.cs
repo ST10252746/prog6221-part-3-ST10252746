@@ -15,7 +15,15 @@ using System.Text;
 using System.Threading.Tasks;
 namespace ST10252746_PROG6221_POE.Models
 {//namespace begin
+    /*
+   *--------------------CODE ATTRIBUTION--------------------
 
+    Author: Fatima Shaik 
+    Website: https://github.com/fb-shaik/PROG6221-Group1-2024/tree/main/Class_Objects_App
+    Date: 1 April 2024
+
+   *--------------------CODE ATTRIBUTION--------------------
+    */
     public class Step
     {//step class begin
      //Get Set method of attribute Description in step class

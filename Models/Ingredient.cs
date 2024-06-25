@@ -16,6 +16,22 @@ using System.Threading.Tasks;
 
 namespace ST10252746_PROG6221_POE.Models
 {//namespace begin
+    /*
+         *--------------------CODE ATTRIBUTION--------------------
+                Author: Fatima Shaik
+                Website: https://github.com/fb-shaik/PROG6221-Group1-2024/blob/main/AddressBookApp/Program.cs
+                Date: 3 April 2024
+
+                Author: Fatima Shaik 
+                Website: https://github.com/fb-shaik/PROG6221-Group1-2024/tree/main/Generics_Library_App
+                Date: 3 April 2024
+
+                Author: Fatima Shaik 
+                Website: https://github.com/fb-shaik/PROG6221-Group1-2024/tree/main/Collection_Generics_LU3
+                Date: 3 April 2024
+         *--------------------CODE ATTRIBUTION--------------------
+
+    */
     public class Ingredient
     {// Ingredient class begin
      //attribute variable declaration - with getter and setter methods
