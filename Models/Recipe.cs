@@ -16,8 +16,8 @@ using System.Threading.Tasks;
 using System.Windows.Documents;
 
 namespace ST10252746_PROG6221_POE.Models
-{
-    public delegate void RecipeDelegate(string message);  
+{//namespace begin
+    public delegate void RecipeDelegate(string message);  //declares delegate named RecipeDelegate references any method 
     public class Recipe
     {// Recipe class begin
         public string Name { get; set; } // Recipe Name
@@ -282,5 +282,5 @@ namespace ST10252746_PROG6221_POE.Models
 
             totalCalories = CalculateTotalCalories();
         }// ResetRecipe end
-    }
-}
+    }//Recipe class end
+}//namespace end

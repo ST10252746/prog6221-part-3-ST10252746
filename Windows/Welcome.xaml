@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Welcome" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnWelcome" Content="Start Up" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Width="130" AutomationProperties.HelpText="Click button to continue onto the next page" Click="btnMain_Click"/>
+        <Button x:Name="btnWelcome" Content="Start Up" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Width="130" AutomationProperties.HelpText="Click button to continue onto the next page" Click="btnWelcome_Click"/>
 
     </Grid>
 </Window>

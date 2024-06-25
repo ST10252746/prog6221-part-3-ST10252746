@@ -78,5 +78,5 @@ namespace ST10252746_PROG6221_POE.Models
                 MessageBox.Show($"Recipe '{recipe.Name}' not found.", "Delete Recipe", MessageBoxButton.OK, MessageBoxImage.Error);
             }//el;se end
         }//deleteRecipe class end
-    }// managerecipe class end
+    }// manageRecipe class end
 }//namespace end

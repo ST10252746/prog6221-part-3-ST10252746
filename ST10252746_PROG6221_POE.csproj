@@ -74,7 +74,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\FilterRecipes.xaml">
+    <Page Include="Windows\FilterRecipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,8 +104,8 @@
     <Compile Include="Windows\ViewRecipe.xaml.cs">
       <DependentUpon>ViewRecipe.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FilterRecipes.xaml.cs">
-      <DependentUpon>FilterRecipes.xaml</DependentUpon>
+    <Compile Include="Windows\FilterRecipe.xaml.cs">
+      <DependentUpon>FilterRecipe.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\Welcome.xaml.cs">
       <DependentUpon>Welcome.xaml</DependentUpon>

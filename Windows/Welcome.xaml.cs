@@ -1,4 +1,14 @@
-﻿using ST10252746_PROG6221_POE.Models;
+﻿/*
+ Theshara Narain - ST10252746
+ PROG6221
+ BCAD 2 GROUP 1
+ POE Part 3
+ Github Link for Part 1: https://github.com/VCDN-2024/prog6221-part-1-ST10252746.git 
+ Github Link for Part 2: https://github.com/VCDN-2024/prog6221-part-2-ST10252746.git 
+Github Link for Part 3: https://github.com/ST10252746/prog6221-part-3-ST10252746.git 
+ */
+
+using ST10252746_PROG6221_POE.Models;
 using ST10252746_PROG6221_POE.Windows;
 using System;
 using System.Collections.Generic;
@@ -16,29 +26,29 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ST10252746_PROG6221_POE
-{
+{//namespace begin
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for WelcomeWindow.xaml
     /// </summary>
     public partial class Welcome : Window
-    {
-        private ManageRecipe manageRecipes;
+    {//welcome window begin
+        private ManageRecipe manageRecipes; //Instance of the ManageRecipe class to handle recipe management tasks
         public Welcome()
-        {
-            InitializeComponent();
-            this.manageRecipes = new ManageRecipe();
-        }
+        {//welcome begin
+            InitializeComponent(); // Initializes the components 
+            this.manageRecipes = new ManageRecipe(); // Creates a new instance of the ManageRecipe class
+        }//welcome end
         public Welcome(ManageRecipe manageRecipes)
-        {
+        {//welcome begin
             InitializeComponent();
-            this.manageRecipes = manageRecipes;
-        }
+            this.manageRecipes = manageRecipes; // Assigns the provided ManageRecipe instance to the class field
+        }////welcome end
 
         private void btnWelcome_Click(object sender, RoutedEventArgs e)
-        {
-            AddRecipe addRecipeWindow = new AddRecipe(manageRecipes);
-            addRecipeWindow.Show();
-            this.Close();
-        }
-    }
-}
+        {//btnWelcome_Click
+            AddRecipe addRecipeWindow = new AddRecipe(manageRecipes); // Creates a new instance of the AddRecipe window, passing the manageRecipes instance
+            addRecipeWindow.Show(); //shows new window
+            this.Close(); //closes current window
+        }//btnWelcome_Click end
+    }//welcome window end
+}//namespace end

@@ -11,8 +11,8 @@
         <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="683,393,0,0" VerticalAlignment="Top" Width="93" AutomationProperties.HelpText="Click to exit button" Click="btnExit_Click"/>
         <Button x:Name="btnAddRecipe" Content="Add Recipe" HorizontalAlignment="Left" Margin="236,79,0,0" VerticalAlignment="Top" Width="117" AutomationProperties.HelpText="Click to add recipe" Click="btnAddRecipe_Click"/>
         <Button x:Name="btnFilter" Content="Filter Recipes" HorizontalAlignment="Left" Margin="472,79,0,0" VerticalAlignment="Top" Width="115" AutomationProperties.HelpText="Click to filter recipes" Click="btnFilter_Click"/>
-        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="61,231,0,0" VerticalAlignment="Top" Width="108" AutomationProperties.HelpText="First select Recipe listed and then click View Recipe button" Click="btnViewRecipe_Click"/>
-        <ListBox x:Name="lstbxRecipeDisplay" Margin="206,118,137,31" SelectionChanged="lstbxRecipeDisplay_SelectionChanged"/>
+        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="41,241,0,0" VerticalAlignment="Top" Width="108" AutomationProperties.HelpText="First select Recipe listed and then click View Recipe button" Click="btnViewRecipe_Click"/>
+        <ListBox x:Name="lstbxRecipeDisplay" Margin="169,118,137,31"/>
 
     </Grid>
 </Window>
