@@ -8,7 +8,7 @@
         Title="ViewRecipe" Height="450" Width="800">
     <Grid>
         <Image Source="/images/mainMenuWindow.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
-        <Label x:Name="lblHeading" Content="Recipe Management Application View Recipe" HorizontalAlignment="Left" Margin="116,0,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" Background="#FF88592F"/>
+        <Label x:Name="lblHeading" Content="Recipe Management Application View Recipe" HorizontalAlignment="Left" Margin="137,0,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" Background="#FF88592F"/>
         <RichTextBox x:Name="rtbRecipe" Margin="221,116,125,10" BorderBrush="#FFB55B29" SelectionBrush="#FFB55B29" FontFamily="Times New Roman" FontSize="14">
             <RichTextBox.Background>
                 <SolidColorBrush Color="White" Opacity="0.95"/>
@@ -25,7 +25,7 @@
         <RadioButton x:Name="rbHalf" Content="0,5 (Half)" HorizontalAlignment="Left" Margin="237,82,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold" Foreground="White"/>
         <RadioButton x:Name="rbDouble" Content="2 (Double)" HorizontalAlignment="Left" Margin="327,82,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold" Foreground="White"/>
         <RadioButton x:Name="rbTriple" Content="3 (Triple)" HorizontalAlignment="Left" Margin="421,82,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold" Foreground="White"/>
-        <TextBox x:Name="txtScale" HorizontalAlignment="Left" Margin="237,59,0,0" TextWrapping="Wrap" Text="Select scaling option below:" VerticalAlignment="Top" Width="251" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Background="#FFAE8361" SelectionBrush="#FFB55B29" BorderBrush="#FFAE8361" Foreground="White"/>
+        <TextBox x:Name="txtScale" HorizontalAlignment="Left" Margin="237,59,0,0" TextWrapping="Wrap" Text="Select scaling option below:" VerticalAlignment="Top" Width="251" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Background="#FF874817" SelectionBrush="#FFB55B29" BorderBrush="#FFAE8361" Foreground="White" TextDecorations="Underline"/>
         <Button x:Name="btnClearRecipe" Content="Clear Recipe" HorizontalAlignment="Left" Margin="44,261,0,0" VerticalAlignment="Top" Width="130" Click="btnClearRecipe_Click" AutomationProperties.HelpText="Click to clear recipe" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Height="27" Background="#FFB55B29" Foreground="White" BorderBrush="Black"/>
         <Button x:Name="btnScale" Content="Scale Recipe" HorizontalAlignment="Left" Margin="44,130,0,0" VerticalAlignment="Top" Width="130" Click="btnScale_Click" AutomationProperties.HelpText="Click to display scaling options" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Height="27" Background="#FFB55B29" Foreground="White" BorderBrush="Black"/>
     </Grid>

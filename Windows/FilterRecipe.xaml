@@ -7,27 +7,31 @@
         mc:Ignorable="d"
         Title="FilterRecipe" Height="450" Width="800">
     <Grid AutomationProperties.HelpText="Click to filter by Number of Calories">
-        <Label x:Name="lblHeading" Content="Recipe Management Application Filter Menu" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnIngredientName" Content="Enter Ingredient Name" HorizontalAlignment="Left" Margin="185,59,0,0" VerticalAlignment="Top" Width="145" AutomationProperties.HelpText="Click to filter by ingredient name" Click="btnIngredientName_Click"/>
-        <Button x:Name="btnFoodGroup" Content="Select Food Group" HorizontalAlignment="Left" Margin="354,59,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to filter by food group" Click="btnFoodGroup_Click" Width="142"/>
-        <Button x:Name="btnCalories" Content="Enter Number of Calories" HorizontalAlignment="Left" Margin="540,59,0,0" VerticalAlignment="Top" Click="btnCalories_Click" Width="153"/>
-        <Button x:Name="btnMainMenu" Content="Return to Main Menu" HorizontalAlignment="Left" Margin="44,392,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to return to main menu" Click="btnMainMenu_Click"/>
-        <TextBox x:Name="txtIngredientName" HorizontalAlignment="Left" Margin="185,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
-        <TextBox x:Name="txtNumberCalories" HorizontalAlignment="Left" Margin="540,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="153"/>
-        <ComboBox x:Name="cmbFoodGroup" HorizontalAlignment="Left" Margin="351,92,0,0" VerticalAlignment="Top" Width="145" Height="18">
-            <ComboBoxItem Content="CARBOHYDRATE"/>
-            <ComboBoxItem Content="PROTEIN"/>
-            <ComboBoxItem Content="FAT"/>
-            <ComboBoxItem Content="OIL"/>
-            <ComboBoxItem Content="FRUIT"/>
-            <ComboBoxItem Content="VEGETABLE"/>
-            <ComboBoxItem Content="DAIRY"/>
-            <ComboBoxItem Content="WATER"/>
-        </ComboBox>
-        <Button x:Name="btnApplyFilter" Content="Apply Filter" HorizontalAlignment="Left" Margin="185,136,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to apply filter selected above" Width="508" Click="btnApplyFilter_Click"/>
-        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="57,242,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to view recipe " Width="92" Click="btnViewRecipe_Click"/>
-        <TextBox x:Name="txtFilter" HorizontalAlignment="Left" Margin="33,74,0,0" TextWrapping="Wrap" Text="Select filter option to apply to recipe:" VerticalAlignment="Top" Width="116"/>
-        <ListBox x:Name="lstbxFilter" Margin="185,173,107,22"/>
+        <Image Source="/images/mainMenuWindow.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblHeading" Content="Recipe Management Application Filter Recipes" HorizontalAlignment="Left" Margin="117,0,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold" FontSize="30" Background="#FF88592F"/>
+        <Button x:Name="btnIngredientName" Content="Enter Ingredient Name" HorizontalAlignment="Left" Margin="11,146,0,0" VerticalAlignment="Top" Width="160" AutomationProperties.HelpText="Click to filter by ingredient name" Click="btnIngredientName_Click" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Height="20" Background="#FFFFC491" BorderBrush="#FFC85102"/>
+        <Button x:Name="btnFoodGroup" Content="Select Food Group" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to filter by food group" Click="btnFoodGroup_Click" Width="160" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Height="20" Background="#FFFFC491" BorderBrush="#FFC85102"/>
+        <Button x:Name="btnCalories" Content="Enter Number of Calories" HorizontalAlignment="Left" Margin="11,278,0,0" VerticalAlignment="Top" Click="btnCalories_Click" Width="160" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Height="20" Background="#FFFFC491" BorderBrush="#FFC85102"/>
+        <Button x:Name="btnMainMenu" Content="Return to Main Menu" HorizontalAlignment="Left" Margin="647,378,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to return to main menu" Click="btnMainMenu_Click" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" Background="#FFAE8361" BorderBrush="#FFB55B29" Height="30"/>
+        <TextBox x:Name="txtIngredientName" HorizontalAlignment="Left" Margin="11,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" AutomationProperties.HelpText="Enter ingredient name to filter by" Height="20"/>
+        <TextBox x:Name="txtNumberCalories" HorizontalAlignment="Left" Margin="11,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" AutomationProperties.HelpText="Enter Number of calories to filter by" Height="20"/>
+        <ComboBox x:Name="cmbFoodGroup" HorizontalAlignment="Left" Margin="10,229,0,0" VerticalAlignment="Top" Width="160" Height="20" AutomationProperties.HelpText="Select Food Group to filter by"/>
+        <Button x:Name="btnApplyFilter" Content="Apply Filter" HorizontalAlignment="Left" Margin="11,378,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to apply filter selected above" Width="160" Click="btnApplyFilter_Click" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FFB55B29" BorderBrush="Black" Foreground="White"/>
+        <Button x:Name="btnViewRecipe" Content="View Recipe" HorizontalAlignment="Left" Margin="647,199,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to view recipe " Width="130" Click="btnViewRecipe_Click" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Height="26" Background="#FFB55B29" BorderBrush="Black" Foreground="White"/>
+        <TextBox x:Name="txtFilter" HorizontalAlignment="Left" Margin="14,83,0,0" TextWrapping="Wrap" Text="Select filter option to apply to recipes:" VerticalAlignment="Top" Width="152" FontFamily="Times New Roman" FontWeight="Bold" FontSize="14" TextAlignment="Center" TextDecorations="Underline" Background="#FF874817" BorderBrush="#FFAE8361" SelectionBrush="#FFB55B29" Foreground="White"/>
+        <ListBox x:Name="lstbxFilter" Margin="188,71,164,16" RenderTransformOrigin="0.5,0.5" BorderBrush="#FFB55B29" FontFamily="Times New Roman" FontSize="14">
+            <ListBox.Background>
+                <SolidColorBrush Color="White" Opacity="0.95"/>
+            </ListBox.Background>
+            <ListBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.184"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.513"/>
+                </TransformGroup>
+            </ListBox.RenderTransform>
+        </ListBox>
 
     </Grid>
 </Window>
