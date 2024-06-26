@@ -6,11 +6,18 @@
         xmlns:local="clr-namespace:ST10252746_PROG6221_POE.Windows"
         mc:Ignorable="d"
         Title="AddStep" Height="450" Width="800">
-    <Grid>
-        <Label x:Name="lblStep" Content="Please enter the step below:" HorizontalAlignment="Left" Margin="36,64,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtStep" HorizontalAlignment="Left" Margin="36,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="445" Height="122"/>
-        <Button x:Name="btnAddStep" Content="Add Step" HorizontalAlignment="Left" Margin="459,255,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to add step to recipe" Width="116" Click="btnAddStep_Click"/>
-        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Left" Margin="367,23,0,0" VerticalAlignment="Top"/>
+    <Grid Margin="0,0,0,-16">
+        <Grid.Background>
+            <ImageBrush ImageSource="/images/addRecipeWindow.jpg"/>
+        </Grid.Background>
+        <Label x:Name="lblStep" Content="Please enter the step below:" HorizontalAlignment="Left" Margin="36,123,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FF9C7053"/>
+        <TextBox x:Name="txtStep" HorizontalAlignment="Left" Margin="36,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="515" Height="176" BorderBrush="#FF9C7053" AutomationProperties.HelpText="Enter step details of recipe into textbox">
+            <TextBox.Background>
+                <SolidColorBrush Color="White" Opacity="1"/>
+            </TextBox.Background>
+        </TextBox>
+        <Button x:Name="btnAddStep" Content="Add Step" HorizontalAlignment="Left" Margin="582,364,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to add step to recipe" Width="193" Click="btnAddStep_Click" Height="30" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Background="#FF9C7053" BorderBrush="White"/>
+        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Left" Margin="320,10,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" Background="#FF9C7053"/>
 
     </Grid>
 </Window>
