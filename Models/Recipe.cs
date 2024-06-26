@@ -107,13 +107,13 @@ namespace ST10252746_PROG6221_POE.Models
             CalorieInformation.Clear();
             RecipeDelegate recipeDelegate = new RecipeDelegate(DisplayCalorieInformation);
 
-            string recipeDetails = $"Recipe: {Name}\n=======================================";
-            recipeDetails += "Ingredients:n=======================================";
+            string recipeDetails = $"RECIPE: {Name}\n=======================================\n";
+            recipeDetails += "INGREDIENTS:\n=======================================";
             foreach (var ingredient in Ingredients)
             {// foreach begin
                 recipeDetails += $"- {ingredient.Quantity} {ingredient.Unit} of {ingredient.Name} ({ingredient.Calories} calories)\nFood Group: {ingredient.FoodGroup}\n=======================================";
             }// foreach end
-            recipeDetails += "Steps:\n=======================================";
+            recipeDetails += "STEPS:\n=======================================";
             for (int i = 0; i < Steps.Count; i++)
             {// for begin
                 recipeDetails += $"Step {i + 1}: {Steps[i].Description}\n";

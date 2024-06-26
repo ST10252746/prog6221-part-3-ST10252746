@@ -153,6 +153,7 @@
   <ItemGroup>
     <Resource Include="Images\welcomeWindow.jpg" />
     <Resource Include="Images\addRecipeWindow.jpg" />
+    <Resource Include="Images\mainMenuWindow.jpg" />
     <Content Include="Music\PROG_POE3.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
