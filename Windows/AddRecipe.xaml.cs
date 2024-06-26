@@ -95,13 +95,7 @@ namespace ST10252746_PROG6221_POE.Windows
             addIngredientWindow.Show(); //opens addIngredient window
             this.Close(); //closes current window
 
-            //var addStepWindow = new AddStep
-            //(recipe, numSteps);
-            //addStepWindow.Show();
-
             manageRecipes.AddRecipe(recipe); // Calls the AddRecipe method of the manageRecipes instance to add the recipe object
-
-
 
             // Clears the fields for the next recipe
             txtRecipeName.Clear(); //clears recipe name
