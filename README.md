@@ -1,6 +1,6 @@
 # README FILE: ST10252746: Theshara Narain
 # Recipe Management Windows Presentation Foundation application
-# Portfolio of Evidence: Windows Presentation Foundation application
+Portfolio of Evidence: Windows Presentation Foundation application (WPF)
 
 ## Table of Contents:
 1. [Description](#1-description)
@@ -46,7 +46,7 @@ The user shall be able to filter the list of recipes by:
 ## 2. Installation
 1. Download the zip folder containing the C# code from VCLearn or GitHub.
 2. Unzip the folder and add it to the directory containing your Visual Studio projects (typically found in This PC > Windows (C:) > Users > [Your Username] > source >repos).
-3. Open Visual Studio, select "Open Project," and navigate to the Recipe Application (ST10252746_PROG6221_POE_PART_3) folder to open it.
+3. Open Visual Studio, select "Open Project," and navigate to the Recipe Application (ST10252746_PROG6221_POE) folder to open it.
 4. Once this is working and you have access to the code, select the build button (the green play button) in visual studio to run the application.
 
 
