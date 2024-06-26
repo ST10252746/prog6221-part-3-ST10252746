@@ -144,10 +144,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Resource Include="welcomeWindow.jpg" />
     <Resource Include="Images\welcomeWindow.jpg" />
+    <Resource Include="Images\addRecipeWindow.jpg" />
     <Content Include="Music\PROG_POE3.mp3" />
-    <Resource Include="welcome.window.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
