@@ -9,13 +9,13 @@
     <Grid>
         <Image Margin="0,0,-32,-78" Source="/images/addRecipeWindow.jpg" Stretch="Fill"/>
         <Label x:Name="lblRecipeName" Content="Please enter the recipe name:" HorizontalAlignment="Left" Margin="41,92,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Background="#FF9C7053" FontWeight="Bold"/>
-        <TextBox x:Name="txtRecipeName" HorizontalAlignment="Left" Margin="41,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" Height="30" AutomationProperties.HelpText="Enter Recipe name here"/>
+        <TextBox x:Name="txtRecipeName" HorizontalAlignment="Left" Margin="41,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" Height="30" AutomationProperties.HelpText="Enter Recipe name here" FontFamily="Times New Roman" FontSize="16"/>
         <Label x:Name="lblNumberIngredients" Content="Please enter number of ingredients:" HorizontalAlignment="Left" Margin="41,189,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Background="#FF9C7053" FontWeight="Bold"/>
-        <TextBox x:Name="txtNumberIngredients" HorizontalAlignment="Left" Margin="41,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" Height="30" AutomationProperties.HelpText="Enter number of ingredients in recipe (Number only!)"/>
+        <TextBox x:Name="txtNumberIngredients" HorizontalAlignment="Left" Margin="41,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" Height="30" AutomationProperties.HelpText="Enter number of ingredients in recipe (Number only!)" FontFamily="Times New Roman" FontSize="16"/>
         <Label x:Name="lblNumberSteps" Content="Please enter number of steps:" HorizontalAlignment="Left" Margin="41,285,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" Background="#FF9C7053" FontWeight="Bold"/>
-        <TextBox x:Name="txtNumberSteps" HorizontalAlignment="Left" Margin="41,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" Height="30" AutomationProperties.HelpText="Enter number of steps in recipe (Number only!)"/>
-        <Button x:Name="btnAddRecipe" Content="Add Recipe" HorizontalAlignment="Left" Margin="365,381,0,0" VerticalAlignment="Top" Width="165" Click="btnAddRecipe_Click_1" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" Height="30" Background="#FF9C7053" BorderBrush="White" AutomationProperties.HelpText="Click to add recipe details to recipe"/>
-        <Label x:Name="lblHeading" Content="Add Recipe Details" HorizontalAlignment="Left" Margin="318,10,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" Width="260" FontWeight="Bold" Background="#FF9C7053"/>
+        <TextBox x:Name="txtNumberSteps" HorizontalAlignment="Left" Margin="41,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="389" Height="30" AutomationProperties.HelpText="Enter number of steps in recipe (Number only!)" FontFamily="Times New Roman" FontSize="16"/>
+        <Button x:Name="btnAddRecipe" Content="Add Recipe" HorizontalAlignment="Left" Margin="334,371,0,0" VerticalAlignment="Top" Width="164" Click="btnAddRecipe_Click_1" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" Height="30" Background="#FF9C7053" BorderBrush="White" AutomationProperties.HelpText="Click to add recipe details to recipe"/>
+        <Label x:Name="lblHeading" Content="Add Recipe Details" HorizontalAlignment="Left" Margin="286,10,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" Width="260" FontWeight="Bold" Background="#FF9C7053"/>
 
     </Grid>
 </Window>

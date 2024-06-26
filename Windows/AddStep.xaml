@@ -10,8 +10,8 @@
         <Grid.Background>
             <ImageBrush ImageSource="/images/addRecipeWindow.jpg"/>
         </Grid.Background>
-        <Label x:Name="lblStep" Content="Please enter the step below:" HorizontalAlignment="Left" Margin="36,123,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FF9C7053"/>
-        <TextBox x:Name="txtStep" HorizontalAlignment="Left" Margin="36,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="515" Height="176" BorderBrush="#FF9C7053" AutomationProperties.HelpText="Enter step details of recipe into textbox">
+        <Label x:Name="lblStep" Content="Please enter the step description below:" HorizontalAlignment="Left" Margin="36,123,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FF9C7053"/>
+        <TextBox x:Name="txtStep" HorizontalAlignment="Left" Margin="36,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="515" Height="176" BorderBrush="#FF9C7053" AutomationProperties.HelpText="Enter step details of recipe into textbox" FontFamily="Times New Roman" FontSize="16" SelectionBrush="#FF9C7053">
             <TextBox.Background>
                 <SolidColorBrush Color="White" Opacity="1"/>
             </TextBox.Background>
