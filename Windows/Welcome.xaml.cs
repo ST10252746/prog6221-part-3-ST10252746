@@ -61,13 +61,16 @@ namespace ST10252746_PROG6221_POE
     /// <summary>
     /// Interaction logic for WelcomeWindow.xaml
     /// </summary>
+    /// 
     public partial class Welcome : Window
     {//welcome window begin
         private ManageRecipe manageRecipes; //Instance of the ManageRecipe class to handle recipe management tasks
+
         public Welcome()
         {//welcome begin
             InitializeComponent(); // Initializes the components 
             this.manageRecipes = new ManageRecipe(); // Creates a new instance of the ManageRecipe class
+           
         }//welcome end
         public Welcome(ManageRecipe manageRecipes)
         {//welcome begin
@@ -81,5 +84,10 @@ namespace ST10252746_PROG6221_POE
             addRecipeWindow.Show(); //shows new window
             this.Close(); //closes current window
         }//btnWelcome_Click end
+
+        private void txtHeading_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }//welcome window end
 }//namespace end

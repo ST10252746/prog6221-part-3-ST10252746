@@ -142,8 +142,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Resource Include="Images\welcomeWindow.jpg" />
+    <Content Include="Music\PROG_POE3.mp3" />
+    <Resource Include="welcome.window.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
