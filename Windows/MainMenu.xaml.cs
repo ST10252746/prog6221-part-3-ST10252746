@@ -126,14 +126,10 @@ namespace ST10252746_PROG6221_POE.Windows
 
         private void btnExit_Click(object sender, RoutedEventArgs e)
         {//btnExit_Click begin
-            //Display message to let user know that they are exiting the App
-            MessageBox.Show("Exiting Application! Thank You for using The Recipe Managament Application");
-
-          
+            var exitWindow = new Exit();
+            //Open  exitWindow and close the current window
+            exitWindow.Show(); //shows  exitWindow window
             this.Close();  //close this window
-
-            //Exit the application
-            Application.Current.Shutdown();
         }//btnExit_Click end
 
         private void btnFilter_Click(object sender, RoutedEventArgs e)

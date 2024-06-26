@@ -11,13 +11,16 @@
             <ColumnDefinition Width="11*"/>
             <ColumnDefinition Width="189*"/>
         </Grid.ColumnDefinitions>
-        <Image Margin="0,-14,-69,-14" Source="/welcomeWindow.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
         <Image Source="/images/welcomeWindow.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
 
         <MediaElement x:Name="mediaPlayer" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="10,388,0,0" VerticalAlignment="Top" Width="132" Source="/Windows/PROG_POE3.mp3" UnloadedBehavior="Stop" LoadedBehavior="Stop"/>
 
-        <Button x:Name="btnWelcome" Content="Welcome" HorizontalAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" Width="130" AutomationProperties.HelpText="Click button to continue onto the next page" Click="btnWelcome_Click" FontFamily="Times New Roman" FontSize="16" Grid.Column="1" Background="#FF864120" BorderBrush="#FFA37F5F" Height="27" Opacity="0.9"/>
-        <TextBox x:Name="txtHeading" Grid.Column="1" HorizontalAlignment="Center" Margin="0,61,0,0" TextWrapping="Wrap" Text="WELCOME TO MY RECIPE MANAGEMENT APP" VerticalAlignment="Top" Width="564" BorderBrush="#FF88592F" FontWeight="Bold" FontFamily="Times New Roman" TextAlignment="Center" Height="170" TextChanged="txtHeading_TextChanged" FontSize="48" Background="#FF88592F" Opacity="0.8"/>
+        <Button x:Name="btnWelcome" Content="Welcome" HorizontalAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" Width="130" AutomationProperties.HelpText="Click button to continue onto the next page" Click="btnWelcome_Click" FontFamily="Times New Roman" FontSize="16" Grid.Column="1" Background="#FF864120" BorderBrush="#FFA37F5F" Height="27" Opacity="0.9" Foreground="White"/>
+        <TextBox x:Name="txtHeading" Grid.Column="1" HorizontalAlignment="Center" Margin="0,61,0,0" TextWrapping="Wrap" Text="WELCOME TO MY RECIPE MANAGEMENT APP" VerticalAlignment="Top" Width="564" BorderBrush="#FF88592F" FontWeight="Bold" FontFamily="Times New Roman" TextAlignment="Center" Height="170" TextChanged="txtHeading_TextChanged" FontSize="48" SelectionBrush="#FF88592F">
+            <TextBox.Background>
+                <SolidColorBrush Color="#FF88592F" Opacity="0.8"/>
+            </TextBox.Background>
+        </TextBox>
 
     </Grid>
 </Window>
