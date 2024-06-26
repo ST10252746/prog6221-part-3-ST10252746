@@ -7,18 +7,28 @@
         mc:Ignorable="d"
         Title="AddIngredient" Height="450" Width="800">
     <Grid>
-        <Label x:Name="lblIngredient" Content="Please enter name of ingredient:" HorizontalAlignment="Left" Margin="34,50,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtIngredientName" HorizontalAlignment="Left" Margin="45,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblQuantity" Content="Please enter quantity of ingredient:" HorizontalAlignment="Left" Margin="45,122,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="cmbUnit" HorizontalAlignment="Left" Margin="45,235,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Margin="53,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblUnit" Content="Please select unit of measurement:" HorizontalAlignment="Left" Margin="53,0,0,0" VerticalAlignment="Center"/>
-        <Label x:Name="lblFoodGroup" Content="Please select food group:" HorizontalAlignment="Left" Margin="53,287,0,0" VerticalAlignment="Top"/>
-        <ComboBox x:Name="cmbFoodGroup" HorizontalAlignment="Left" Margin="45,318,0,0" VerticalAlignment="Top" Width="120"/>
-        <Label x:Name="lblCalories" Content="Please enter number of calories:" HorizontalAlignment="Left" Margin="53,362,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtCalories" HorizontalAlignment="Left" Margin="53,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnAddIngredient" Content="Add Ingredient" HorizontalAlignment="Left" Margin="586,237,0,0" VerticalAlignment="Top" Width="118" AutomationProperties.HelpText="Click here to add ingredient to recipe" Click="btnAddIngredient_Click"/>
-        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Left" Margin="331,23,0,0" VerticalAlignment="Top"/>
+        <Image Margin="0,0,-32,-78" Source="/images/addRecipeWindow.jpg" Stretch="Fill"/>
+        <Label x:Name="lblIngredient" Content="Please enter name of ingredient:" HorizontalAlignment="Left" Margin="34,50,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" Background="#FF9C7053"/>
+        <TextBox x:Name="txtIngredientName" HorizontalAlignment="Left" Margin="34,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291" Height="24" AutomationProperties.HelpText="Enter the name of the Ingredient"/>
+        <Label x:Name="lblQuantity" Content="Please enter quantity of ingredient:" HorizontalAlignment="Left" Margin="34,125,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="14" FontWeight="Bold" Background="#FF9C7053"/>
+        <ComboBox x:Name="cmbUnit" HorizontalAlignment="Left" Margin="34,225,0,0" VerticalAlignment="Top" Width="270" BorderBrush="White" AutomationProperties.HelpText="Select the unit of measurement using th drop down menu">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Margin="34,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291" Height="24" AutomationProperties.HelpText="Enter the quantity of the ingredient (Numbers only!)"/>
+        <Label x:Name="lblUnit" Content="Please select unit of measurement:" HorizontalAlignment="Left" Margin="34,197,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Times New Roman" FontSize="16" Background="#FF9E7255"/>
+        <Label x:Name="lblFoodGroup" Content="Please select food group:" HorizontalAlignment="Left" Margin="36,262,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Background="#FF9C7053"/>
+        <ComboBox x:Name="cmbFoodGroup" HorizontalAlignment="Left" Margin="36,290,0,0" VerticalAlignment="Top" Width="270
+                  " BorderBrush="White" AutomationProperties.HelpText="Select the food group using th drop down menu"/>
+        <Label x:Name="lblCalories" Content="Please enter number of calories:" HorizontalAlignment="Left" Margin="36,335,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FF9C7053"/>
+        <TextBox x:Name="txtCalories" HorizontalAlignment="Left" Margin="36,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291
+                 " Height="24" AutomationProperties.HelpText="Enter the number of calories of the ingredient (Numbers only!)"/>
+        <Button x:Name="btnAddIngredient" Content="Add Ingredient" HorizontalAlignment="Left" Margin="597,392,0,0" VerticalAlignment="Top" Width="193" AutomationProperties.HelpText="Click here to add ingredient to recipe" Click="btnAddIngredient_Click" Height="30" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.595,2.844" Background="#FF9E7255" BorderBrush="White"/>
+        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" Background="#FF9C7053"/>
 
     </Grid>
 </Window>
