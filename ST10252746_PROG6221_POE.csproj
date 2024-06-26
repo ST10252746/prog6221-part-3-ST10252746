@@ -144,6 +144,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Resource Include="welcomeWindow.jpg" />
     <Resource Include="Images\welcomeWindow.jpg" />
     <Content Include="Music\PROG_POE3.mp3" />
     <Resource Include="welcome.window.jpg" />
