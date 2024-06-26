@@ -70,7 +70,7 @@ namespace ST10252746_PROG6221_POE
         {//welcome begin
             InitializeComponent(); // Initializes the components 
             this.manageRecipes = new ManageRecipe(); // Creates a new instance of the ManageRecipe class
-           
+            mediaPlayer.Play(); 
         }//welcome end
         public Welcome(ManageRecipe manageRecipes)
         {//welcome begin

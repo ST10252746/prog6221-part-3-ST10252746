@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Image Source="/images/welcomeWindow.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
 
-        <MediaElement x:Name="mediaPlayer" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="10,388,0,0" VerticalAlignment="Top" Width="132" Source="/Windows/PROG_POE3.mp3" UnloadedBehavior="Stop" LoadedBehavior="Stop"/>
+        <MediaElement x:Name="mediaPlayer" Grid.Column="1" HorizontalAlignment="Left" Height="24" Margin="10,388,0,0" VerticalAlignment="Top" Width="132" Source="/Music/PROG_POE3.mp3" UnloadedBehavior="Play" LoadedBehavior="Play"/>
 
         <Button x:Name="btnWelcome" Content="Welcome" HorizontalAlignment="Center" Margin="0,273,0,0" VerticalAlignment="Top" Width="130" AutomationProperties.HelpText="Click button to continue onto the next page" Click="btnWelcome_Click" FontFamily="Times New Roman" FontSize="16" Grid.Column="1" Background="#FF864120" BorderBrush="#FFA37F5F" Height="27" Opacity="0.9" Foreground="White"/>
         <TextBox x:Name="txtHeading" Grid.Column="1" HorizontalAlignment="Center" Margin="0,61,0,0" TextWrapping="Wrap" Text="WELCOME TO MY RECIPE MANAGEMENT APP" VerticalAlignment="Top" Width="564" BorderBrush="#FF88592F" FontWeight="Bold" FontFamily="Times New Roman" TextAlignment="Center" Height="170" TextChanged="txtHeading_TextChanged" FontSize="48" SelectionBrush="#FF88592F">

@@ -7,17 +7,21 @@
         mc:Ignorable="d"
         Title="AddStep" Height="450" Width="800">
     <Grid Margin="0,0,0,-16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="379*"/>
+        </Grid.ColumnDefinitions>
         <Grid.Background>
             <ImageBrush ImageSource="/images/addRecipeWindow.jpg"/>
         </Grid.Background>
-        <Label x:Name="lblStep" Content="Please enter the step description below:" HorizontalAlignment="Left" Margin="36,123,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FF9C7053"/>
-        <TextBox x:Name="txtStep" HorizontalAlignment="Left" Margin="36,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="515" Height="176" BorderBrush="#FF9C7053" AutomationProperties.HelpText="Enter step details of recipe into textbox" FontFamily="Times New Roman" FontSize="16" SelectionBrush="#FF9C7053">
+        <Label x:Name="lblStep" Content="Please enter the step description below:" HorizontalAlignment="Left" Margin="36,123,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FF9C7053" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtStep" HorizontalAlignment="Left" Margin="36,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="544" Height="187" BorderBrush="#FF9C7053" AutomationProperties.HelpText="Enter step details of recipe into textbox" FontFamily="Times New Roman" FontSize="20" SelectionBrush="#FF9C7053" Grid.ColumnSpan="2">
             <TextBox.Background>
                 <SolidColorBrush Color="White" Opacity="1"/>
             </TextBox.Background>
         </TextBox>
-        <Button x:Name="btnAddStep" Content="Add Step" HorizontalAlignment="Left" Margin="582,364,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to add step to recipe" Width="193" Click="btnAddStep_Click" Height="30" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Background="#FF9C7053" BorderBrush="White"/>
-        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Left" Margin="320,10,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" Background="#FF9C7053"/>
+        <Button x:Name="btnAddStep" Content="Add Step" HorizontalAlignment="Left" Margin="517,361,0,0" VerticalAlignment="Top" AutomationProperties.HelpText="Click to add step to recipe" Width="193" Click="btnAddStep_Click" Height="30" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Background="#FF9C7053" BorderBrush="White" Grid.Column="1"/>
+        <Label x:Name="lblHeading" Content="" HorizontalAlignment="Left" Margin="278,10,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" Background="#FF9C7053" Grid.Column="1"/>
 
     </Grid>
 </Window>

@@ -26,8 +26,8 @@
                   " BorderBrush="White" AutomationProperties.HelpText="Select the food group using th drop down menu" FontFamily="Times New Roman" FontSize="14"/>
         <Label x:Name="lblCalories" Content="Please enter number of calories:" HorizontalAlignment="Left" Margin="36,335,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" Background="#FF9C7053"/>
         <TextBox x:Name="txtCalories" HorizontalAlignment="Left" Margin="36,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="291
-                 " Height="24" AutomationProperties.HelpText="Enter the number of calories of the ingredient (Numbers only!)" FontFamily="Times New Roman" FontSize="14"/>
-        <Button x:Name="btnAddIngredient" Content="Add Ingredient" HorizontalAlignment="Left" Margin="597,392,0,0" VerticalAlignment="Top" Width="193" AutomationProperties.HelpText="Click here to add ingredient to recipe" Click="btnAddIngredient_Click" Height="30" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.595,2.844" Background="#FF9E7255" BorderBrush="White"/>
+                 " Height="24" AutomationProperties.HelpText="Enter the number of calories of the ingredient (Numbers only!)" FontFamily="Times New Roman"/>
+        <Button x:Name="btnAddIngredient" Content="Add Ingredient" HorizontalAlignment="Left" Margin="567,375,0,0" VerticalAlignment="Top" Width="193" AutomationProperties.HelpText="Click here to add ingredient to recipe" Click="btnAddIngredient_Click" Height="30" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.595,2.844" Background="#FF9E7255" BorderBrush="White"/>
         <Label x:Name="lblHeading" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="30" FontWeight="Bold" Background="#FF9C7053"/>
 
     </Grid>
